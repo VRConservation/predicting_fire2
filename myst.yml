@@ -18,7 +18,7 @@ project:
       email: vance@3point.xyz
       url: https://3point.xyz
 
-  github: https://github.com/VRConservation/predicting_fire
+  github: https://github.com/VRConservation/predicting_fire2
   banner: rxfire2.png
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
