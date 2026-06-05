@@ -2,6 +2,13 @@
 title: Predicting 2026 Wildfires
 abstract: |
   Modeling wildfire occurrence is nearly impossible due to the complex interplay of weather, biotic, and abiotic factors on the ground. We're going to do it anyway, or at least examine what places might be vulnerable during 2026. We examine fire history and the likelihood of severe fires using fire perimeters since 2010, as well as the probability of crown fire. Surprisingly, some places in the Sierra-Cascade region of California may be more vulnerable than others. In addition, we conduct a simple analysis to examine potential crown fire impacts on old-growth forest stands and on threatened species richness.
+exports:
+    - format: docx
+      template: curvenote
+      output: exports/predict.docx
+    - format: pdf
+      template: lapreprint-typst
+      output: exports/predict.pdf  
 ---
 
 # Take-aways
@@ -40,7 +47,7 @@ Mean crown fire probability showing inset closeups in the Shasta and Sierra/Neva
 Although there are areas of high probability for severe wildfire scattered throughout California, the two areas that lit up were in the Shasta and Sierra/Nevada County regions, where multiple high-probability polygons connected. This doesn't mean wildfires will occur in these areas, but it does mean the likelihood is higher. In Nevada County, there have been concerted efforts to thin the forest and create fuel breaks throughout the County. However, there are pockets, particularly in private landholdings where thinning has not taken place, and many houses in the wildland-urban interface have neither created defensible space nor cleared pine needles from roofs and yards.
 
 # Biodiversity & Old-growth forest
-When we examine old-growth and species diversity in relation to fire, it appears at first glance that older forest stands and species richness could be at high risk in areas with high fire probability. But if we take the median crown fire probability and compare it to old-growth and threatened and endangered species, it doesn't look like many stands or species are at high risk. Please see @della and @spp for interactive maps that compare the data layers.
+When we examine old-growth and species diversity in relation to fire, it appears at first glance that older forest stands and species richness could be at high risk in areas with high fire probability. But if we take the median crown fire probability and compare it to old-growth and threatened and endangered species, it doesn't look like many stands or species are at high risk.
 
 # Solutions
 Moving forward, several integrated solution sets can support forest health and reduce fire risk:
