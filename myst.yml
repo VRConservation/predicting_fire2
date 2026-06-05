@@ -41,9 +41,9 @@ site:
     favicon: favicon.ico
     logo: logo.png
   nav:
-    - title: Geospatial
-      url: https://3point.xyz/geosp
-    - title: Confi
+    - title: Open Source Geospatial
+      url: https://3point.xyz/geo2/
+    - title: Conservation Finance
       url: https://3point.xyz/confi
-    - title: FBA guide
+    - title: Forest Business Guide
       url: https://3point.xyz/fba-guide
